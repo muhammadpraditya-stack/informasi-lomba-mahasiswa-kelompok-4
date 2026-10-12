@@ -12,7 +12,10 @@ if (tombolTema) {
 }
 // ===== BAGIAN MAHASISWA 2 (Beranda) =====
 // ===== BAGIAN MAHASISWA 3 (Profil dan Daftar Lomba) =====
+<<<<<<< Updated upstream
 // ===== BAGIAN MAHASISWA 3 (Profil dan Daftar Lomba) =====
+=======
+>>>>>>> Stashed changes
 const tombolFilter = document.querySelectorAll(".tombol-filter");
 const daftarLomba = document.querySelectorAll(".lomba");
 tombolFilter.forEach(function (tombol) {
@@ -31,4 +34,26 @@ tombolFilter.forEach(function (tombol) {
     });
   });
 });
+<<<<<<< Updated upstream
 // ===== BAGIAN MAHASISWA 4 (Kontak) =====
+=======
+
+// ===== BAGIAN MAHASISWA 4 (Kontak) =====
+const tombolKirim = document.getElementById("tombol-kirim");
+if (tombolKirim) {
+    tombolKirim.addEventListener("click", function () {
+        const nama = document.getElementById("nama").value;
+        const email = document.getElementById("email").value;
+        const pesan = document.getElementById("pesan").value;
+        const status = document.getElementById("status-form");
+
+        if (nama === "" || email === "" || pesan === "") {
+            status.textContent = "Semua kolom wajib diisi.";
+        } else if (!email.includes("@")) {
+            status.textContent = "Format email tidak valid.";
+        } else {
+            status.textContent = "Terima kasih, " + nama + ". Pesan Anda diterima.";
+        }
+    });
+}
+>>>>>>> Stashed changes
