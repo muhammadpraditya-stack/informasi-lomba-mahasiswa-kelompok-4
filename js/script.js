@@ -10,7 +10,22 @@ if (tombolTema) {
     }
     });
 }
+
 // ===== BAGIAN MAHASISWA 2 (Beranda) =====
+const sapaan = document.getElementById("sapaan");
+if (sapaan) {
+  const jam = new Date().getHours();
+  if (jam < 11) {
+    sapaan.textContent = "Selamat pagi, selamat datang!";
+  } else if (jam < 15) {
+    sapaan.textContent = "Selamat siang, selamat datang!";
+  } else if (jam < 18) {
+    sapaan.textContent = "Selamat sore, selamat datang!";
+  } else {
+    sapaan.textContent = "Selamat malam, selamat datang!";
+  }
+}
+
 // ===== BAGIAN MAHASISWA 3 (Profil dan Daftar Lomba) =====
 fitur-kontak-js
 // ===== BAGIAN MAHASISWA 4 (Kontak) =====
