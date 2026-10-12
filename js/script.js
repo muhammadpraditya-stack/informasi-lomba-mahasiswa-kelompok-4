@@ -10,8 +10,24 @@ if (tombolTema) {
     }
     });
 }
+
 // ===== BAGIAN MAHASISWA 2 (Beranda) =====
+const sapaan = document.getElementById("sapaan");
+if (sapaan) {
+  const jam = new Date().getHours();
+  if (jam < 11) {
+    sapaan.textContent = "Selamat pagi, selamat datang!";
+  } else if (jam < 15) {
+    sapaan.textContent = "Selamat siang, selamat datang!";
+  } else if (jam < 18) {
+    sapaan.textContent = "Selamat sore, selamat datang!";
+  } else {
+    sapaan.textContent = "Selamat malam, selamat datang!";
+  }
+}
+
 // ===== BAGIAN MAHASISWA 3 (Profil dan Daftar Lomba) =====
+<<<<<<< HEAD
 const tombolFilter = document.querySelectorAll(".tombol-filter");
 const daftarLomba = document.querySelectorAll(".lomba");
 tombolFilter.forEach(function (tombol) {
@@ -30,6 +46,8 @@ tombolFilter.forEach(function (tombol) {
     });
   });
 });
+=======
+>>>>>>> 1568bf69f5c6ab1e62f67a2538e0aff70f421ec0
 // ===== BAGIAN MAHASISWA 4 (Kontak) =====
 const tombolKirim = document.getElementById("tombol-kirim");
 if (tombolKirim) {
