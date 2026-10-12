@@ -15,6 +15,7 @@ body {
     padding: 16px 32px;
     background-color: #4a2c82;
     color: white;
+    .card:hover { box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); }
 }
 .logo { font-size: 22px; }
 .menu { display: flex; gap: 24px; list-style: none; }
