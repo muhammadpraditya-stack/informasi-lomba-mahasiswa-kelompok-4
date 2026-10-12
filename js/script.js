@@ -31,7 +31,6 @@ if (tombolKirim) {
         }
     });
 }
-=======
 const tombolFilter = document.querySelectorAll(".tombol-filter");
 const daftarLomba = document.querySelectorAll(".lomba");
 tombolFilter.forEach(function (tombol) {
@@ -50,5 +49,3 @@ tombolFilter.forEach(function (tombol) {
     });
   });
 });
-// ===== BAGIAN MAHASISWA 4 (Kontak) =====
-main
