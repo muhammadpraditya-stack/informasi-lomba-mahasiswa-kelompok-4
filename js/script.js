@@ -12,6 +12,7 @@ if (tombolTema) {
 }
 // ===== BAGIAN MAHASISWA 2 (Beranda) =====
 // ===== BAGIAN MAHASISWA 3 (Profil dan Daftar Lomba) =====
+// ===== BAGIAN MAHASISWA 3 (Profil dan Daftar Lomba) =====
 const tombolFilter = document.querySelectorAll(".tombol-filter");
 const daftarLomba = document.querySelectorAll(".lomba");
 tombolFilter.forEach(function (tombol) {
