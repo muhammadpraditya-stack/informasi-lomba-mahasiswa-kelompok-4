@@ -12,4 +12,22 @@ if (tombolTema) {
 }
 // ===== BAGIAN MAHASISWA 2 (Beranda) =====
 // ===== BAGIAN MAHASISWA 3 (Profil dan Daftar Lomba) =====
+const tombolFilter = document.querySelectorAll(".tombol-filter");
+const daftarLomba = document.querySelectorAll(".lomba");
+tombolFilter.forEach(function (tombol) {
+  tombol.addEventListener("click", function () {
+    const kategori = tombol.dataset.kategori;
+    tombolFilter.forEach(function (t) {
+      t.classList.remove("aktif");
+    });
+    tombol.classList.add("aktif");
+    daftarLomba.forEach(function (lomba) {
+      if (kategori === "semua" || lomba.dataset.kategori === kategori) {
+        lomba.style.display = "block";
+      } else {
+        lomba.style.display = "none";
+      }
+    });
+  });
+});
 // ===== BAGIAN MAHASISWA 4 (Kontak) =====
