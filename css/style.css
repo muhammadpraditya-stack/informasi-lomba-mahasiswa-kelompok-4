@@ -126,3 +126,28 @@ body.gelap .tombol-filter.aktif {
   color: white; 
 }
 /* ===== BAGIAN MAHASISWA 4 (Kontak) ===== */
+.info-kontak {
+    margin: 16px 0 28px;
+}
+.form-kontak {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 500px;
+}
+.form-kontak input,
+.form-kontak textarea {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-family: inherit;
+}
+.form-kontak button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4a2c82;
+    color: white;
+    cursor: pointer;
+}
+#status-form { font-weight: bold; }
