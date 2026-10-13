@@ -27,7 +27,7 @@ if (sapaan) {
 }
 
 // ===== BAGIAN MAHASISWA 3 (Profil dan Daftar Lomba) =====
-<<<<<<< HEAD
+
 const tombolFilter = document.querySelectorAll(".tombol-filter");
 const daftarLomba = document.querySelectorAll(".lomba");
 tombolFilter.forEach(function (tombol) {
@@ -44,10 +44,11 @@ tombolFilter.forEach(function (tombol) {
         lomba.style.display = "none";
       }
     });
+
   });
 });
-=======
->>>>>>> 1568bf69f5c6ab1e62f67a2538e0aff70f421ec0
+
+
 // ===== BAGIAN MAHASISWA 4 (Kontak) =====
 const tombolKirim = document.getElementById("tombol-kirim");
 if (tombolKirim) {
