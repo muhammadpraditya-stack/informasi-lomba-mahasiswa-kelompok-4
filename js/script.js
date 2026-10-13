@@ -25,10 +25,7 @@ if (sapaan) {
     sapaan.textContent = "Selamat malam, selamat datang!";
   }
 }
-
-fitur-profil-kegiatan
-
-main
+//nama: Faris
 // ===== BAGIAN MAHASISWA 3 (Profil dan Daftar Lomba) =====
 const tombolFilter = document.querySelectorAll(".tombol-filter");
 const daftarLomba = document.querySelectorAll(".lomba");
@@ -67,8 +64,6 @@ if (tombolKirim) {
             status.textContent = "Terima kasih, " + nama + ". Pesan Anda diterima.";
         }
     });
-fitur-profil-kegiatan
 }
 
-}
-main
+
