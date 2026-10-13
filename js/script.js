@@ -45,9 +45,8 @@ tombolFilter.forEach(function (tombol) {
         lomba.style.display = "none";
       }
     });
-    });
+  });
 });
-
 // ===== BAGIAN MAHASISWA 4 (Kontak) =====
 const tombolKirim = document.getElementById("tombol-kirim");
 if (tombolKirim) {
@@ -66,4 +65,5 @@ if (tombolKirim) {
         }
     });
 }
+
 
