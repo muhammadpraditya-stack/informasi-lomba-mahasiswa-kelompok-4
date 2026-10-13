@@ -26,7 +26,7 @@ if (sapaan) {
   }
 }
 
-
+// ini adalah bagian fitur profil
 // ===== BAGIAN MAHASISWA 3 (Profil dan Daftar Lomba) =====
 const tombolFilter = document.querySelectorAll(".tombol-filter");
 const daftarLomba = document.querySelectorAll(".lomba");
