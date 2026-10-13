@@ -56,7 +56,27 @@ body.gelap .card { background-color: #221d33; border-color: #3d3458; }
     .navbar { flex-direction: column; }
     .menu { gap: 14px; flex-wrap: wrap; justify-content: center; }
 }
+
 /* ===== BAGIAN MAHASISWA 2 (Beranda) ===== */
+.hero {
+  text-align: center;
+  padding: 56px 20px;
+  border-radius: 10px;
+  background-color: #6a3fc4;
+  color: white;
+}
+.hero h2 { font-size: 30px; margin: 6px 0 10px; }
+.hero p { margin-bottom: 14px; }
+.tombol-hero {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: white;
+  color: #4a2c82;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 /* ===== BAGIAN MAHASISWA 3 (Profil dan Kegiatan) ===== */
 .blok-profil {
   background-color: white;
@@ -126,3 +146,28 @@ body.gelap .tombol-filter.aktif {
   color: white; 
 }
 /* ===== BAGIAN MAHASISWA 4 (Kontak) ===== */
+.info-kontak {
+    margin: 16px 0 28px;
+}
+.form-kontak {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 500px;
+}
+.form-kontak input,
+.form-kontak textarea {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-family: inherit;
+}
+.form-kontak button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4a2c82;
+    color: white;
+    cursor: pointer;
+}
+#status-form { font-weight: bold; }
